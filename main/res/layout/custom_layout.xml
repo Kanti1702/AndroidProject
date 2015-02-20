@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/APP_COLOR">
+
+    <LinearLayout
+        android:id="@+id/menuIconContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@color/APP_COLOR_DARK"
+        >
+
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_wild_activity"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO WILD"
+        android:textColor="@color/APP_COLOR_WHITE"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/menuIconContainer"
+        android:paddingLeft="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/numberBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:visibility="gone"
+        android:textColor="@color/APP_COLOR_WHITE"
+        android:background="@color/APP_COLOR_GREEN"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/title"
+        android:paddingLeft="10dp"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="@color/APP_COLOR_DARK"
+        android:layout_alignParentBottom="true"
+        >
+    </View>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wolfpack Android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="WolfPack">WOLFPACK</string>
+    <string name="RunLabel">RUN TOGETHER</string>
+    <string name="SignInFacebbokButton">SIGN IN WITH FACEBOOK</string>
+    <string name="LoginButton">LOGIN</string>
+    <string name="RegisterButtton">REGISTER</string>
+    <string name="TermsLabel1">By Clicknig Register You Agree To </string>
+    <string name="TermsLabel2">Terms and Conditons</string>
+    <string name="infoLine1">Do you find yourself scrolling through your</string>
+    <string name="infoLine2">phone looking for buddies to hang out with</string>
+    <string name="infoLine4">gotten married?</string>
+    <string name="storyButton1">STORY OF MY LIFE</string>
+    <string name="storyButton2">YOU DO?</string>
+    <string name="infoLine5">Yeah! Using advanced algorithams. Wolfpack</string>
+    <string name="infoLine6">helps you discover buddies nearby with</string>
+    <string name="infoLine7">common intrests in your SAME SITUATION!</string>
+    <string name="storyButton3">COOL! TELL ME MORE.</string>
+    <string name="infoLine8">Totally. Using our advanced algorithms, we</string>
+    <string name="infoLine9">make events suggestions to YOU based on the </string>
+    <string name="infoLine10">type of events and the intrests of event </string>
+    <string name="infoLine11">attendees. </string>
+    <string name="storyButton4">EVENTS? LIKE WHAT?</string>
+    <string name="infoLine12">Poker nights. Pick up basketball, you name it. </string>
+    <string name="infoLine13">Group and categorize your friends and buddies </string>
+    <string name="infoLine14">based on their favorite things to do and their </string>
+    <string name="infoLine15">key interests. </string>
+    <string name="storyButton5">WOW! I LIKE THAT! </string>
+    <string name="infoLine16">Looking for something local? Browse events in </string>
+    <string name="infoLine17">your area organized by distance and filtered by </string>
+    <string name="infoLine18">your interests. No more going to bars alone!  </string>
+    <string name="infoLine20">wild for something cool. The power of the pack </string>
+    <string name="infoLine21">has got your back! Give it a try now. </string>
+    <string name="storyButton7">GET STARTED </string>
+    <string name="APPNAME">WOLFPACK</string>
+    <string name="photoButton">+ Photo</string>
+    <string name="UserNameText">UserName</string>
+    <string name="EmailText">Email</string>
+    <string name="FirstNameText">FirstName</string>
+    <string name="LastNameText">LastName</string>
+    <string name="PasswordText">Password</string>
+    <string name="CalendarText">Date of Birth</string>
+    <string name="confirmpasswordText">Confirm Password</string>
+
+    <string name="menu_icon">&#xf039;</string>
+
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!--  Nav Drawer Menu Item -->
+    <string-array name="nav_drawer_items">
+        <item>GO WILD</item>
+        <item>BUILD WOLFPACK</item>
+        <item>PACK REQUEST</item>
+        <item>EVENTS</item>
+        <item>MY PACK</item>
+        <item>MY PROFILE</item>
+        <item>SETTINGS</item>
+    </string-array>
+
+    <!--  Nav Drawer List Item Icons -->
+    <!--  Keep them in order as the titles are in -->
+    <array name ="nav_drawer_icons">
+        <item>@drawable/icon_wild_activity</item>
+        <item>@drawable/icon_build_wolfpack</item>
+        <item>@drawable/icon_my_pack</item>
+        <item>@drawable/icon_events</item>
+        <item>@drawable/icon_my_pack</item>
+        <item>@drawable/icon_my_profile</item>
+        <item>@drawable/icon_settings</item>
+    </array>
+
+    <string-array name="tabs">
+        <item>ALL PACK MEMBERS</item>
+        <item>PACK LIST</item>
+    </string-array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>

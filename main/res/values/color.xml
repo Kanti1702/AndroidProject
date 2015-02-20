@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="APP_COLOR">#7B684A</color>
+    <color name="APP_COLOR_DARK">#453B2B</color>
+    <color name="APP_COLOR_RED">#881829</color>
+    <color name="APP_COLOR_GREEN">#016F4B</color>
+    <color name="APP_COLOR_WHITE">#FCFCFC</color>
+    <color name="APP_COLOR_GREY_LIGHT">#999999</color>
+    <color name="APP_COLOR_GREY">#797979</color>
+    <color name="APP_COLOR_GREY_DARK">#292929</color>
+    <color name="APP_COLOR_WILD">#CBCBCB</color>
+    <color name="APP_COLOR_WILD_SELECTED">#A39A8B</color>
+
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="colorHighlight">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+</resources>

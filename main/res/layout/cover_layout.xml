@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/banner1"
+            android:background="@color/APP_COLOR_GREEN"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/BottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+            >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/APP_COLOR"
+            android:text="HOME"
+            android:layout_weight="1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="WOLFPACK"
+            android:background="@color/APP_COLOR"
+            android:layout_weight="1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/button"
+            />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/uploadButton"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/photo_oval_button"
+            android:text="+ Photo"
+            android:textColor="@color/APP_COLOR"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

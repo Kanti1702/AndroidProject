@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/APP_COLOR"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView7"
+            android:layout_weight="1"
+            android:src="@drawable/icon_build"
+            android:layout_gravity="bottom" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView8"
+            android:layout_weight="1"
+            android:src="@drawable/icon_build"
+            android:layout_gravity="bottom" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView9"
+            android:layout_weight="1"
+            android:src="@drawable/icon_build"
+            android:layout_gravity="bottom" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView10"
+            android:layout_weight="1"
+            android:src="@drawable/icon_build"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUILD"
+            android:textColor="@color/APP_COLOR_WHITE"
+            android:layout_weight="1"
+            android:id="@+id/textView2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY PACK"
+            android:textColor="@color/APP_COLOR_WHITE"
+            android:layout_weight="1"
+            android:id="@+id/textView3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EVENTS"
+            android:textColor="@color/APP_COLOR_WHITE"
+            android:layout_weight="1"
+            android:id="@+id/textView4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WILD"
+            android:textColor="@color/APP_COLOR_WHITE"
+            android:layout_weight="1"
+            android:id="@+id/textView5" />
+    </LinearLayout>
+</RelativeLayout>

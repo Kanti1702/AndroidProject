@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/APP_COLOR_GREY_DARK"
+    android:orientation="vertical"
+    android:id="@+id/go_wild_container"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggestions_container"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/suggestions_container"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_suggestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="@+id/suggestions_container"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="10"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView_suggestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="@+id/suggestions_container"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Suggested freinds"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="bottom"
+            android:lines="2"/>
+
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/suggestions_container">
+        <LinearLayout
+            android:id="@+id/mygallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            />
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+</RelativeLayout>

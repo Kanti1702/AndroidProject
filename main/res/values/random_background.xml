@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="image">
+        <item>@drawable/launcher_screen1</item>
+        <item>@drawable/launcher_screen2</item>
+        <item>@drawable/launcher_screen3</item>
+        <item>@drawable/launcher_screen4</item>
+        <item>@drawable/launcher_screen5</item>
+    </array>
+    <array name="imagebanner">
+        <item>@drawable/banner1</item>
+        <item>@drawable/banner2</item>
+        <item>@drawable/banner3</item>
+        <item>@drawable/banner4</item>
+        <item>@drawable/banner5</item>
+    </array>
+</resources>

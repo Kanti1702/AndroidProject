@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/APP_COLOR_GREY_DARK">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_people"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHINTAN DALAL"
+            android:textColor="@color/APP_COLOR_WHITE"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PREFERENCES"
+            android:textColor="@color/APP_COLOR_GREY"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/textView7" />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/APP_COLOR_GREY"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDIT PROFILE"
+            android:drawableRight="@drawable/icon_forward_arrow"
+            android:drawablePadding="230dp"
+            android:textSize="15dp"
+            android:textColor="@color/APP_COLOR_WHITE"
+            android:id="@+id/editProfileText" />
+
+        <View
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/APP_COLOR_GREY"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY INTRESTS"
+            android:textSize="15dp"
+            android:drawableRight="@drawable/icon_forward_arrow"
+            android:drawablePadding="230dp"
+            android:textColor="@color/APP_COLOR_WHITE"
+            android:id="@+id/myIntrestText" />
+        <View
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/APP_COLOR_GREY"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET PASSWORD"
+            android:textSize="15dp"
+            android:drawableRight="@drawable/icon_forward_arrow"
+            android:drawablePadding="195dp"
+            android:textColor="@color/APP_COLOR_WHITE"
+            android:id="@+id/resetPasswordText" />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/APP_COLOR_GREY"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUPPORT"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/APP_COLOR_GREY"
+        android:id="@+id/supportText" />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/APP_COLOR_GREY"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TERMS AND CONDITIONS"
+        android:textSize="15dp"
+        android:textColor="@color/APP_COLOR_WHITE"
+        android:id="@+id/termsText" />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/APP_COLOR_GREY"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FREQUENTLY ASKED QUESTIONS"
+        android:textSize="15dp"
+        android:textColor="@color/APP_COLOR_WHITE"
+        android:id="@+id/frequentText" />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/APP_COLOR_GREY"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN OUT"
+        android:textSize="15dp"
+        android:textColor="@color/APP_COLOR_WHITE"
+        android:id="@+id/signoutText" />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/APP_COLOR_GREY"/>
+
+</LinearLayout>
